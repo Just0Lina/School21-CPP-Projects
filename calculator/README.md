@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+​
 <head>
   <meta charset="utf-8">
   <title>Smartcalc_v1.0 manual page</title>
