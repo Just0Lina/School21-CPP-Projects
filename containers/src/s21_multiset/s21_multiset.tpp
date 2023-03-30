@@ -4,6 +4,8 @@ namespace s21 {
 template <typename Key, typename Value>
 multiset<Key, Value>::multiset() : set<Key, Value>() {}
 
+template <typename Key, typename Value> multiset<Key, Value>::~multiset() {}
+
 template <typename Key, typename Value>
 multiset<Key, Value>::multiset(std::initializer_list<Key> const &items) {
   for (auto i = items.begin(); i != items.end(); ++i) {
@@ -124,7 +126,7 @@ void multiset<Key, Value>::merge(multiset<Key, Value> &other) {
   for (auto i = l.begin(); i != l.end(); ++i) {
     this->insert_any_existing(*i);
   };
-
+  other.fake_node_->parent = nullptr;
   other.root_ = other.fake_node_;
   other.size_ = 0;
 }

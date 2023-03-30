@@ -111,51 +111,6 @@ public:
   bool empty() const;
   void swap(Node_type *&root, Node_type *&fake, size_t &size);
 
-  void ColorTree(Node_type *node, std::ofstream *stream) {
-    if (!node->parent)
-      *stream << " " << '_' << node->value.first << "_" << node << "[color="
-              << ((node->color) ? "\"black\";];\n" : "\"red\";];\n");
-    if (node->left != nullptr) {
-      *stream << " " << '_' << node->left->value.first << "_" << node->left
-              << " [color="
-              << ((node->left->color) ? "\"black\";];\n" : "\"red\";];\n");
-      ColorTree(node->left, stream);
-    }
-
-    if (node->right != nullptr) {
-      *stream << " " << '_' << node->right->value.first << "_" << node->right
-              << " [color="
-              << ((node->right->color) ? "\"black\";];\n" : "\"red\";];\n");
-      ColorTree(node->right, stream);
-    }
-  }
-
-  void SaveTree(Node_type *node, std::ofstream *stream) {
-    if (node->left != nullptr) {
-      *stream << "  " << '_' << node->value.first << "_" << node << " -> "
-              << '_' << node->left->value.first << "_" << node->left
-              << std::endl;
-      SaveTree(node->left, stream);
-    }
-    if (node->right != nullptr) {
-      *stream << "  " << '_' << node->value.first << "_" << node << " -> "
-              << '_' << node->right->value.first << "_" << node->right
-              << std::endl;
-      SaveTree(node->right, stream);
-    }
-  }
-
-  void SaveTreeToDot(const std::string &file_name) {
-    std::ofstream stream(file_name);
-    if (stream.is_open()) {
-      stream << "digraph {" << std::endl;
-      ColorTree(this->root_, &stream);
-      SaveTree(this->root_, &stream);
-      stream << "}";
-      stream.close();
-    }
-  }
-
 public:
   size_t size_;
   Node_type *root_;

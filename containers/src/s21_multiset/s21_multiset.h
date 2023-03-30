@@ -19,7 +19,7 @@ public:
   explicit multiset(std::initializer_list<value_type> const &items);
   multiset(const multiset &ms);
   multiset(multiset &&ms);
-  ~multiset() = default;
+  ~multiset();
   multiset &operator=(multiset &&ms);
 
   template <typename... Args> vector<iterator> emplace(Args &&...args);

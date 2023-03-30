@@ -120,7 +120,6 @@ TEST(iter, end_to_begin) {
                          11, 15, 15, 3, 3, 4, 2, 11, 8, 33, 33, 1,  1,  1});
   std::multiset<int> os({1,  2,  3,  4, 5, 5, 5, 5,  5, 8,  11, 22, 33, 44, 15,
                          11, 15, 15, 3, 3, 4, 2, 11, 8, 33, 33, 1,  1,  1});
-  ss.SaveTreeToDot("tree.dot");
   auto sit = --ss.end();
   auto oit = --os.end();
   for (; sit != ss.begin() && oit != os.begin(); --sit, --oit) {

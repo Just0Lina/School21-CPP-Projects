@@ -123,7 +123,7 @@ template <typename T> void vector<T>::clear() {
 }
 
 template <typename T> void vector<T>::shift(const T *pos, size_t len) {
-  if (pos >= arr_ && pos <= arr_ + capacity_) {
+  if (len && pos >= arr_ && pos <= arr_ + capacity_) {
     if (size_ + len <= capacity_) {
       size_ += len;
       T *src = arr_ + size_;

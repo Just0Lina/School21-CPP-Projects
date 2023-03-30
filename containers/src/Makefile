@@ -32,7 +32,7 @@ gcov_report: tests
 	# @open -a "Safari" all_report/index.html
 
 clean:
-	rm -rf *.gcda *.gcno *.o *.info *_tests */*.out */*.dSYM all_report
+	rm -rf *.gcda *.gcno *.o *.info *_tests */*.out *.dSYM all_report
 
 check:
 	@clang-format -i s21_*/*.tpp s21_*/*.h

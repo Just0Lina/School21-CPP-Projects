@@ -70,6 +70,7 @@ void map<Key, Value>::merge(map<Key, Value> &other) {
       ++i;
   }
 
+  other.fake_node_->parent = nullptr;
   other.root_ = other.fake_node_;
   other.size_ = 0;
 
