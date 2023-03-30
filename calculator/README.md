@@ -3,28 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>Smartcalc_v1.0 manual page</title>
-  <style>
-    hr {
-      border: none;
-      background-color: darkseagreen;
-      color: black;
-      height: 2px;
-    }
-    ul {
-      background-color: darkseagreen;
-    }
-    li {
-        color:black;
-    }
-    p {
-      color: black;
-    }
-    b {
-      color: black;
-      height: 2px;
-    }
-    
-  </style>
 </head>
 ​
 
