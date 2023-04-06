@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>A1_MAZE by Corrin Flossie, Tanna Orell & Glop Conn</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">ОБО «Большие Титки» & Алинджо</div>
+        <nav class="nav">
+          <a class="nav__link" href="#features">ЛАБИРИННТ</a>
+          <a class="nav__link" href="#settings">ПЕЩЕРЫ</a>
+          <!-- <a class="nav__link" href="#rec">КОМАНДА</a> -->
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="intro" id="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <h1 class="intro__title">A1 MAZE</h1>
+        <h2 class="intro__subtitle">by team <strong>«Zh$M$Zh»</strong> (Парина Петюхина, Митяй Pontorez'off &
+          Алинджо)</h2>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__title">I. ЛАБИРИННТ</h3>
+        <div class="section__text">
+          <ul>
+            <li>Программа была разработана на языке С++ стандарта С++17 с использованием компилятора g++. Были использованы дополнительные библиотеки и модули QT</li>
+            <li>Сборка программы настроена с помощью Makefile со стандартным набором целей для GNU-программ:
+              all, install, uninstall, clean, dvi, dist, tests. Также есть дополнительные цели (build, gcov_report).</li>
+            <li>Программа разработана в соответствии с принципами объектно-ориентированного
+              программирования</li>
+            <li>Обеспечено полное покрытие unit-тестами модуля генерации идеального лабиринта.</li>
+            <li>В программе предусмотрена кнопка для загрузки лабиринта из файла.</li>
+            <li>Максимальный размер лабиринта - 50х50. </li>
+            <li>Загруженный лабиринт отрисован на экране в поле размером 500 x 500 пикселей.</li>
+            <li>Толщина "стены" - 2 пикселя. </li>
+            <li>Размер самих ячеек лабиринта вычисляется таким образом, чтобы лабиринт занимал всё отведенное под него поле. </li>
+            <li>Генерирация лабиринта осуществляется согласно алгоритму Эллера. </li>
+            <li>Сгенерированный лабиринт не имеет изолированных областей и петель. </li>
+            <li>Пользователем вводится только размерность лабиринта: количество строк и столбцов. </li>
+            <li>Сгенерированный лабиринт сохраняться в файл. </li>
+            <li>Добавлена возможность показать решение любого лабиринта, который сейчас изображен на экране: </li>
+            <ol>
+              <li>Пользователем задаются начальная и конечная точки.</li>
+              <li>Маршрут, являющийся решением, отображен линией толщиной 2 пикселя, проходящей через середины всех ячеек лабиринта, через которые пролегает решение.</li>
+              <li>Поворачивать модель на заданный угол относительно своих осей X, Y, Z</li>
+              <li>Масштабировать модель на заданное значение.</li>
+              <li>Цвет линии решения отличнен от цветов стен и поля</li>
+              <li>Обеспечено полное покрытие unit-тестами модуля решения лабиринта</li>
+            </ol>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_2" id="settings">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__title">II. ПЕЩЕРЫ</h3>
+        <div class="section__text">
+          <ul>
+            <li>Добавлена генерацию пещер с использованием клеточного автомата: </li>
+            <ol>
+              <li>Пользователем выбирается файл.</li>
+              <li>Максимальный размер пещеры - 50 х 50.</li>
+              <li>Загруженная пещера отрисована на экране в поле размером 500 x 500 пикселей</li>
+              <li>Пользователем задаются пределы "рождения" и "смерти" клетки, а также шанс на начальную инициализацию клетки.</li>
+              <li>Пределы "рождения" и "смерти" могут иметь значения от 0 до 7</li>
+              <li>Предусмотрен пошаговый режим отрисовки результатов работы алгоритма в двух вариантах:</li>
+              <ol>
+                <li>По нажатию на кнопку следующего шага отрисовывается очередная итерация работы алгоритма.</li>
+                <li>По нажатию на кнопку автоматической работы запускается отрисовка итераций работы алгоритма с частотой 1 шаг в N миллисекунд, где число миллисекунд N задаётся через специальное поле в пользовательском интерфейсе.</li>
+              </ol>
+              <li>Размер клеток в пикселях вычисляется таким образом, чтобы пещера занимала всё отведенное под него поле</li>
+              <li>Обеспечено полное покрытие unit-тестами модуля генерации пещере</li>
+            </ol>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_3" id="rec">
+    <div class="container">
+      <div class="section__header">
+        <!-- <h3 class="section__title">III. КОМАНДА</h3> -->
+        <div class="section__text">
+          <!-- <ul>
+            <li></li>
+            <li></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+<footer>
+  <div class="footer font">❝ПОМНИ, СИЛЬНЫЙ ТОТ, У КОГО СИЛЫ ЕСТЬ❞</div>
+</footer>
+
+</html>
