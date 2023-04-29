@@ -30,7 +30,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QMainWindow {
-	background-color: #8805A8;
+	background-color: #3F72AF;
 }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -45,9 +45,9 @@
     </property>
     <property name="styleSheet">
      <string notr="true">openGLWidget {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: white;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }</string>
     </property>
    </widget>
@@ -64,12 +64,12 @@
      <string notr="true">QPushButton {
      border: 1px solid #F3D712;
      background-color: #5C0DAC;
-	color: white;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #9F69D6;
-	color: white;
+     background-color: #BBCAE4;
+	color: #112D4E;
  }</string>
     </property>
     <property name="currentIndex">
@@ -187,7 +187,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	color: #E2FA00;
+	color: #112D4E;
 }</string>
       </property>
       <property name="text">
@@ -211,7 +211,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	color: #E2FA00;
+	color: #112D4E;
 }</string>
       </property>
       <property name="text">
@@ -235,7 +235,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	color: #E2FA00;
+	color: #112D4E;
 }</string>
       </property>
       <property name="text">
@@ -259,13 +259,13 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
       </property>
       <property name="text">
@@ -289,13 +289,13 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
       </property>
       <property name="text">
@@ -319,8 +319,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QDoubleSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="decimals">
@@ -356,8 +356,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QDoubleSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="minimum">
@@ -384,8 +384,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QDoubleSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="minimum">
@@ -412,8 +412,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QDoubleSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="minimum">
@@ -440,7 +440,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	color: #E2FA00;
+	color: #112D4E;
 }</string>
       </property>
       <property name="text">
@@ -464,7 +464,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	color: #E2FA00;
+	color: #112D4E;
 }</string>
       </property>
       <property name="text">
@@ -510,8 +510,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QDoubleSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="minimum">
@@ -541,7 +541,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	color: #E2FA00;
+	color: #112D4E;
 }</string>
       </property>
       <property name="text">
@@ -565,8 +565,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QDoubleSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="minimum">
@@ -618,13 +618,13 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
       </property>
       <property name="text">
@@ -654,8 +654,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QDoubleSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="inputMethodHints">
@@ -726,7 +726,7 @@ QPushButton:pressed {
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: #E2FA00</string>
+       <string notr="true">color: #112D4E</string>
       </property>
       <item>
        <property name="text">
@@ -756,8 +756,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
-	color: #E2FA00;
+	border: 1px solid #112D4E;
+	color: #DBE2EF;
 }</string>
       </property>
       <property name="text">
@@ -784,8 +784,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
-	color: #E2FA00;
+	border: 1px solid #112D4E;
+	color: #DBE2EF;
 }</string>
       </property>
       <property name="text">
@@ -805,7 +805,7 @@ QPushButton:pressed {
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: #E2FA00</string>
+       <string notr="true">color: #112D4E</string>
       </property>
       <property name="currentIndex">
        <number>0</number>
@@ -838,8 +838,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
-	color: #E2FA00;
+	border: 1px solid #112D4E;
+	color: #DBE2EF;
 }</string>
       </property>
       <property name="text">
@@ -859,7 +859,7 @@ QPushButton:pressed {
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: #E2FA00</string>
+       <string notr="true">color: #112D4E</string>
       </property>
       <property name="currentIndex">
        <number>0</number>
@@ -897,13 +897,13 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
       </property>
       <property name="text">
@@ -927,13 +927,13 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
       </property>
       <property name="text">
@@ -957,13 +957,13 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
       </property>
       <property name="text">
@@ -987,8 +987,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
-	color: #E2FA00;
+	border: 1px solid #112D4E;
+	color: #112D4E;
 }</string>
       </property>
       <property name="text">
@@ -1015,8 +1015,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
-	color: #E2FA00;
+	border: 1px solid #112D4E;
+	color: #DBE2EF;
 }</string>
       </property>
       <property name="text">
@@ -1043,8 +1043,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="minimum">
@@ -1071,8 +1071,8 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QSpinBox {
-	background-color: #C50080;
-	color: #E2FA00;
+	background-color: #DBE2EF;
+	color: #112D4E;
 }</string>
       </property>
       <property name="minimum">
@@ -1102,13 +1102,13 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
       </property>
       <property name="text">
@@ -1132,13 +1132,13 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
       </property>
       <property name="text">
@@ -1161,7 +1161,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
+	border: 1px solid #DBE2EF;
 }</string>
       </property>
       <property name="text">
@@ -1194,7 +1194,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	color: #E2FA00
+	color: #DBE2EF
 }</string>
       </property>
       <property name="frameShape">
@@ -1227,7 +1227,7 @@ QPushButton:pressed {
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel {
-	color: #E2FA00;
+	color: #112D4E;
 }</string>
       </property>
       <property name="text">
@@ -1266,13 +1266,13 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
     </property>
     <property name="text">
@@ -1302,13 +1302,13 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
     </property>
     <property name="text">
@@ -1332,13 +1332,13 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
     </property>
     <property name="text">
@@ -1362,13 +1362,13 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
     </property>
     <property name="text">
@@ -1392,13 +1392,13 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
     </property>
     <property name="text">
@@ -1422,8 +1422,8 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
-	color: #E2FA00;
+	border: 1px solid #DBE2EF;
+	color: #DBE2EF;
 }</string>
     </property>
     <property name="text">
@@ -1447,8 +1447,8 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
-	color: #E2FA00;
+	border: 1px solid #DBE2EF;
+	color: #DBE2EF;
 }</string>
     </property>
     <property name="text">
@@ -1472,8 +1472,8 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-	border: 1px solid #E2FA00;
-	color: #E2FA00;
+	border: 1px solid #DBE2EF;
+	color: #DBE2EF;
 }</string>
     </property>
     <property name="text">
@@ -1497,13 +1497,13 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-     border: 1px solid #E2FA00;
-     background-color: #C50080;
-	color: #E2FA00;
+     border: 1px solid #112D4E;
+     background-color: #DBE2EF;
+	color: #112D4E;
  }
 
 QPushButton:pressed {
-     background-color: #E266B7;
+     background-color: #BBCAE4;
  }</string>
     </property>
     <property name="text">
