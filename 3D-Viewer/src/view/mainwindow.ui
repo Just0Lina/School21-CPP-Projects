@@ -63,7 +63,7 @@
     <property name="styleSheet">
      <string notr="true">QPushButton {
      border: 1px solid #F3D712;
-     background-color: #5C0DAC;
+     background-color: #DBE2EF;
 	color: #112D4E;
  }
 
@@ -988,7 +988,7 @@ QPushButton:pressed {
       <property name="styleSheet">
        <string notr="true">QLabel {
 	border: 1px solid #112D4E;
-	color: #112D4E;
+	color: #DBE2EF;
 }</string>
       </property>
       <property name="text">

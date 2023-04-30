@@ -33,9 +33,9 @@ class StyleHelper {
 
   static QString getStyleButton1() {
     return "QPushButton {font: bold; font-size: 20px;"
-           "background-color: #C50080; color: #E2FA00; "
-           "border: 1px solid #E2FA00}"
-           "QPushButton:pressed {background-color: #E266B7}";
+           "background-color: #DBE2EF; color: #112D4E; "
+           "border: 1px solid #112D4E}"
+           "QPushButton:pressed {background-color: #BBCAE4}";
   }
 };
 
