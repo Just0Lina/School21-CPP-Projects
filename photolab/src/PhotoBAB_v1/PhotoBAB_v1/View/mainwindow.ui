@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1331</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1331</width>
+    <height>682</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1331</width>
+    <height>682</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>PhotoBAB_v1.0 by G.Conn, C.Flosssie &amp; T.Orell</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Triangular</enum>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>0</y>
+      <width>411</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>152</red>
+          <green>96</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="PlaceholderText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="PlaceholderText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ButtonText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>33</red>
+          <green>33</green>
+          <blue>33</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="ToolTipBase">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="PlaceholderText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>244</red>
+          <green>244</green>
+          <blue>244</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabWidget {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideMiddle</enum>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>true</bool>
+    </property>
+    <property name="documentMode">
+     <bool>true</bool>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <property name="movable">
+     <bool>true</bool>
+    </property>
+    <property name="tabBarAutoHide">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="tab_simple">
+     <attribute name="title">
+      <string>Simple</string>
+     </attribute>
+     <widget class="QPushButton" name="button_grayscale">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>411</width>
+        <height>115</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #caf0f8;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Grayscale</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_negative">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>114</y>
+        <width>411</width>
+        <height>115</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #ade8f4;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Negative</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_toning">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>228</y>
+        <width>411</width>
+        <height>114</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #90e0ef;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Toning</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_contrast">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>520</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #00b4d8;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Contrast</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="spin_contrast">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>460</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>17</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDoubleSpinBox
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QDoubleSpinBox:hover {
+     background-color: #00b4d8;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>-80.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>80.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QSlider" name="slider_bright">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>341</y>
+        <width>261</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+	gridline-color: rgb(39, 50, 255);
+}
+</string>
+      </property>
+      <property name="minimum">
+       <number>-150</number>
+      </property>
+      <property name="maximum">
+       <number>150</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QSlider" name="slider_contrast">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>460</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+      </property>
+      <property name="minimum">
+       <number>-80</number>
+      </property>
+      <property name="maximum">
+       <number>80</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_bright">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #48cae4;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Brightnes</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="spin_bright">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>341</y>
+        <width>151</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>17</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDoubleSpinBox
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QDoubleSpinBox:hover {
+     background-color: #48cae4;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>-150.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>150.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_convolution">
+     <attribute name="title">
+      <string>Convolution</string>
+     </attribute>
+     <widget class="QPushButton" name="button_sharpen">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>59</y>
+        <width>411</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #8e94f2;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Sharpen</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_emboss">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #8187dc;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Emboss</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_boxblur">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #9fa0ff;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Box Blur</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_laplacian">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>240</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #bbadff;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Laplacian Filter</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_gaussian">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>180</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #ada7ff;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Gaussian Blur</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="botton_sobel_left">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #cbb2fe;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Sobel Filter (Left)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_sobel_right">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>360</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica Neue</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #dab6fc;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Sobel Filter (Right)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_sobel_both">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>420</y>
+        <width>411</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #ddbdfc;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Sobel Filter (Left and Right)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_custom">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>480</y>
+        <width>272</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #9e2a2b;
+ }
+
+QPushButton:hover {
+     background-color: #e0c3fc;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>Custom</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="sizeMatrixColumn">
+      <property name="geometry">
+       <rect>
+        <x>272</x>
+        <y>530</y>
+        <width>139</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSpinBox {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QSpinBox:hover {
+     background-color: #e0c3fc;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>16</number>
+      </property>
+      <property name="value">
+       <number>3</number>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="sizeMatrixRow">
+      <property name="geometry">
+       <rect>
+        <x>272</x>
+        <y>480</y>
+        <width>139</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSpinBox {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QSpinBox:hover {
+     background-color: #e0c3fc;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>16</number>
+      </property>
+      <property name="value">
+       <number>3</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_color">
+     <property name="styleSheet">
+      <string notr="true">QTabWidget {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+     </property>
+     <attribute name="title">
+      <string>Color</string>
+     </attribute>
+     <widget class="QDoubleSpinBox" name="spin_hue_hsl">
+      <property name="geometry">
+       <rect>
+        <x>151</x>
+        <y>0</y>
+        <width>71</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>15</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDoubleSpinBox
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QDoubleSpinBox:hover {
+     background-color: #e3f2fd;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>359.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QSlider" name="slider_hue_hsl">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>0</y>
+        <width>191</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>359</number>
+      </property>
+      <property name="value">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_hsl">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>179</y>
+        <width>411</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #64b5f6;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #64b5f6;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>HSL</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="spin_saturation_hsl">
+      <property name="geometry">
+       <rect>
+        <x>151</x>
+        <y>59</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>17</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDoubleSpinBox
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QDoubleSpinBox:hover {
+     background-color: #bbdefb;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>50.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QSlider" name="slider_saturation_hsl">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>59</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+      </property>
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>50</number>
+      </property>
+      <property name="value">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_hue_hsl">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>152</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+      </property>
+      <property name="text">
+       <string>Hue</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_saturation_hsl">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>59</y>
+        <width>152</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+      </property>
+      <property name="text">
+       <string>Saturation</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_lightnesS">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>119</y>
+        <width>152</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+      </property>
+      <property name="text">
+       <string>Lightness</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QSlider" name="slider_lightness">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>119</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+      </property>
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>255</number>
+      </property>
+      <property name="value">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="spin_lightness">
+      <property name="geometry">
+       <rect>
+        <x>151</x>
+        <y>119</y>
+        <width>70</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>17</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDoubleSpinBox
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QDoubleSpinBox:hover {
+     background-color: #90caf9;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>255.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>127.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="spin_hue_hsv">
+      <property name="geometry">
+       <rect>
+        <x>151</x>
+        <y>298</y>
+        <width>71</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>15</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDoubleSpinBox
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QDoubleSpinBox:hover {
+     background-color: #42a5f5;
+	color: #212121;
+}
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>359.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_hsv">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>477</y>
+        <width>411</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	padding: auto 30px;
+	text-align: left;
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #1565c0;
+	color: #212121;
+ }</string>
+      </property>
+      <property name="text">
+       <string>HSV</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_value">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>417</y>
+        <width>152</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+      </property>
+      <property name="text">
+       <string>Value</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="spin_value">
+      <property name="geometry">
+       <rect>
+        <x>151</x>
+        <y>417</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>17</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDoubleSpinBox
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QDoubleSpinBox:hover {
+     background-color: #1976d2;
+	color: #212121;
+}</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>255.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>127.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QSlider" name="slider_value">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>417</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+      </property>
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>255</number>
+      </property>
+      <property name="value">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_hue_hsv">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>298</y>
+        <width>152</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+      </property>
+      <property name="text">
+       <string>Hue</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_saturation_hsv">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>357</y>
+        <width>152</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+      </property>
+      <property name="text">
+       <string>Saturation</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QSlider" name="slider_saturation_hsv">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>357</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+      </property>
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>50</number>
+      </property>
+      <property name="value">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QSlider" name="slider_hue_hsv">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>298</y>
+        <width>191</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+</string>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>359</number>
+      </property>
+      <property name="value">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="spin_saturation_hsv">
+      <property name="geometry">
+       <rect>
+        <x>151</x>
+        <y>357</y>
+        <width>70</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>17</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDoubleSpinBox
+ {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QDoubleSpinBox:hover {
+     background-color: #1e88e5;
+	color: #212121;
+}
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::NoButtons</enum>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>50.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>280</y>
+        <width>411</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border-right: 1px solid #F4F4F4;
+	border-left: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_team">
+     <attribute name="title">
+      <string>Team    </string>
+     </attribute>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>411</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../../img/resurses.qrc">:/team.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="button_load">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>601</y>
+      <width>136</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica</family>
+      <pointsize>25</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #F4F4F4;
+	color: #212121;
+ }</string>
+    </property>
+    <property name="text">
+     <string>LOAD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_save">
+    <property name="geometry">
+     <rect>
+      <x>1056</x>
+      <y>601</y>
+      <width>136</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica</family>
+      <pointsize>25</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #F4F4F4;
+	color: #212121;
+ }</string>
+    </property>
+    <property name="text">
+     <string>SAVE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_default">
+    <property name="geometry">
+     <rect>
+      <x>1192</x>
+      <y>601</y>
+      <width>139</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica</family>
+      <pointsize>25</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}
+
+QPushButton:pressed {
+     background-color: #F4F4F4;
+	color: #212121;
+ }
+
+QPushButton:hover {
+     background-color: #F4F4F4;
+	color: #212121;
+ }</string>
+    </property>
+    <property name="text">
+     <string>DEFAULT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pictureField">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>83</y>
+      <width>921</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	border-top: 1px solid #F4F4F4;
+	border-right: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_filename">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>921</width>
+      <height>82</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Helvetica</family>
+      <pointsize>43</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	padding-left: 30px;
+	border-right: 1px solid #F4F4F4;
+	background-color: #212121;
+	color: #F4F4F4;
+}</string>
+    </property>
+    <property name="text">
+     <string>PhotoBab</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../img/resurses.qrc"/>
+ </resources>
+ <connections/>
+</ui>

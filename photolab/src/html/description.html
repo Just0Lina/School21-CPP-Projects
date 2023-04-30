@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive landing page headphones</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">I. Part</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">II. Part</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#case" class="nav__link">III. Part</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div>
+                        <img src="assets/img/sample_wbg.png" alt="" class="home__img">
+                    </div>
+                    
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">CPP8</h1>
+                            <h2 class="home__subtitle">Photolab v1.0</h2>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">Описание</h3>
+                            <p class="home__description"> В этом проекте мы реализовали программу, которая применяет к изображению различные фильтры свертки. Такие фильтры используются для размытия, повышения резкости, контуров, создания эффекта барельефа и применения множества других эффектов.
+                            </p>
+                            <a href="#specs" class="button button--flex">
+                                <i class="ri-information-line button__icon"></i> Стартуем...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+
+
+            <!--=============== SPONSOR ===============-->
+            <section class="sponsor section">
+                <section class="discount section">
+                    <div class="discount__container container grid">
+                        <div class="discount__animate">
+                            <h2 class="discount__title">Общие требования</h2>
+                            <p class="discount__description">
+                                Программа разработана на языке C++ стандарта C++17. 
+                                <br>Классы реализованы внутри пространства имен s21. 
+                                <br>Подготовлено полное покрытие unit-тестами модулей, реализующих бизнес-логику приложения, c помощью библиотеки GTest. 
+                                <br>Сборка программы настроена с помощью Makefile со стандартным набором целей для GNU-программ: all, install, uninstall, clean, dvi, dist, tests.
+                                <br>Реализация с графическим пользовательским интерфейсом, на базе GUI-библиотеки с API для C++17: Qt. 
+                                <br>Программа реализована с использованием паттерна MVC.
+                                <br>
+                                <ol>Программа предоставляет возможность: 
+                                <li>Загружать произвольное изображение формата BMP</li>
+                                <li>Сохранить результат фильтрации в отдельный файл (формат BMP)</li>
+                                <li>Применить фильтр из пула готовых фильтров</li>
+                                </ol>
+                            </p>
+                            <!-- <a href="#" class="button button--flex">
+                                <i class="ri-shopping-bag-line button__icon"></i> Shop Now
+                            </a> -->
+                        </div>
+    
+                        <!-- <img src="assets/img/discount.png" alt="" class="discount__img"> -->
+                    </div>
+                </section>
+            </section>
+
+
+            <!--=============== SPECS ===============-->
+            <section class="specs section grid" id="specs">
+                <h2 class="section__title section__title-gradient">Part I
+                    <br>Простые фильтры </h2>
+
+                <div class="specs__container container grid">
+                    <div class="specs__content grid">
+                        <div class="specs__data">
+                            <h3 class="specs__title"><strong>Простые фильтры</strong></h3>
+                        </div>
+    
+                        <div class="specs__data">
+                            <h3 class="specs__title">Обесцвечивание</h3>
+                            <span class="specs__subtitle">(без использования свертки)</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <h3 class="specs__title">Негатив</h3>
+                            <span class="specs__subtitle">(без использования свертки)</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <h3 class="specs__title">Тонирование</h3>
+                            <span class="specs__subtitle">(По аналогии с обесцвечиванием <br> но в оттенках указанного на палитре цвета)</span>
+                        </div>
+                    </div>
+
+                    
+                    <div>
+                        <img src="assets/img/negative.png" alt="" class="specs__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== PRODUCTS ===============-->
+            <section class="products section" id="products">
+                <h2 class="section__title section__title-gradient products__line">
+                     Part II
+                    <br>  Реализация фильтров свертки
+                </h2>
+
+                <div class="products__container container grid">
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/emboss.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Emboss</h3>
+                            <span class="products__price">Барельеф</span>
+    
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/sharpen.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Sharpen</h3>
+                            <span class="products__price">Повышение резкости</span>
+    
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/box_blur.png" alt="" class="products__img">
+                            <h3 class="products__title">Box blur</h3>
+                            <span class="products__price">Блочное размытие</span>
+    
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/gaussain_blur.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Gaussian blur</h3>
+                            <span class="products__price">Гауссово размытие</span>
+    
+                        </div>
+                    </article>
+
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/sobel.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Laplacian filter</h3>
+                            <span class="products__price">Фильтр Лапласа</span>
+    
+                        </div>
+                    </article>
+
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/sobel.png" alt="" class="products__img">
+    
+                            <h3 class="products__title">Sobel filter</h3>
+                            <span class="products__price">Фильтр Собеля</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+            <!--=============== CASE ===============-->
+            <section class="case section grid" id="case">
+                <h2 class="section__title section__title-gradient">Part III. Дополнительно
+                    <br> Реализация цветокоррекции
+                </h2>
+
+                <div class="case__container container grid">
+                    <div>
+                        <img src="assets/img/contrast.png" alt="" class="case__img">
+                    </div>
+
+                    <div class="case__data">
+                        <p class="case__description">Программа предоставляет возможность осуществлять настройку цветокоррекции, а именно: изменение яркости и контрастности изображения, работу с насыщенностью для всего изображения (по моделям HSL и HSV).
+                        </p>
+                        <a href="#" class="button button--flex">
+                            <i class="ri-information-line button__icon"></i> В начало...
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Простые</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Обесцвечивание</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Негатив</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Тонирование</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Свертки</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Барельеф</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Блочное размытие</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Гауссово размытие</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Фильтр Лапласа</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Фильтр Собеля</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Цвет</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Яркость</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Контростность</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">HSL</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">HSV</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="https://edu.21-school.ru/" target="_blank" class="footer__copy-link">&#9829; Mityai Pontorez'off, Alinjo & Parina Petuhina. All right FUCK OFF</a>
+                <br>
+                <a href="https://davidgoggins.com/" target="_blank" class="footer__copy-link"> "Many Dreams Dies While Suffering" -David Goggins </a> 
+            </p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
